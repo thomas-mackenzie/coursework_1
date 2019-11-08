@@ -7,7 +7,7 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-	if(args == null){
+	if(args.length == 0){
 		try{
 			throw new NullPointerException("No Input");
 		} catch(NullPointerException e){
