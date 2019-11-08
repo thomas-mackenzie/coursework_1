@@ -12,7 +12,7 @@ class Dec2Hex
 			throw new NullPointerException("No Input");
 		} catch(NullPointerException e){
 			System.out.println("No input found");
-			System.exit(1);
+			System.exit(0);
 		}
 	}	
 
@@ -26,7 +26,7 @@ class Dec2Hex
             catch (NumberFormatException e) 
             {
                 System.err.println("Argument" + args[0] + " must be an integer.");
-                System.exit(1);
+                System.exit(0);
             }
         }
 
