@@ -12,7 +12,7 @@ class Dec2Hex
 			throw new NullPointerException("No Input");
 		} catch(NullPointerException e){
 			System.out.println("No input found");
-			throw e;
+			System.exit(1);
 		}
 	}	
 
