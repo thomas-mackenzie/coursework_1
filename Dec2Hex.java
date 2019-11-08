@@ -7,7 +7,16 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-	System.out.println("Hex to Dec Converter");
+	if(args == null){
+		try{
+			throw new NullPointerException("No Input");
+		} catch(NullPointerException e){
+			System.out.println("No input found");
+			throw e;
+		}
+	}	
+
+
         if (args.length > 0) 
         {
             try 
