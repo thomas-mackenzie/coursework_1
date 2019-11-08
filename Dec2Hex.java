@@ -7,7 +7,7 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-	Sytem.out.println("Hex to Dec Converter");
+	System.out.println("Hex to Dec Converter");
         if (args.length > 0) 
         {
             try 
